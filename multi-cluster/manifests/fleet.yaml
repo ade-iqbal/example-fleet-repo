@@ -12,7 +12,7 @@ targetCustomizations:
     # Refers to overlays/noreplication folder
     - noreplication
 
-- name: management
+- name: development
   clusterSelector:
     matchLabels:
       cluster-role: management
